@@ -16,6 +16,9 @@ int main(){
     sort{v.begin(), v.end()};//sort vectors
     sort{a,a+n, greater<int>};//sorts the array in descending order
 
+    char str[];// or string str("/*write your string*/");
+    reverse(a.begin(), a.end()); // Reverse the the string
+
     pair<int, int> a[] = {{1,2},{2,1},{4,1}};
     sort{a,a+n, comp}
     /*            ^
